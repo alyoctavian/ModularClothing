@@ -69,3 +69,11 @@ The component needs to be attached to the main character, and the references sho
 
 The Singleton class is used to easier access some components without having to reference gameobjects or setup dependencies.
 The [ShopInteract](https://github.com/alyoctavian/ModularClothing/blob/main/Scripts/ShopInteract.cs) script is used to show the button whenever the player walks close to the counter.
+
+#### Scriptable Objects
+
+The concept of scriptable objects as data containers is used in order to create the [CustomizationItem](https://github.com/alyoctavian/ModularClothing/blob/main/ScriptableObjects/BodyPart/CustomizationItem.cs) and to store information like name, price and animations.
+After importing this script, simply right-click inside the project window to create a customization item for a body type of your choice. I have attached the Outfit folder for reference.
+If you keep the structure of this project, the animations need to be referenced in the specified order.
+
+![image](https://github.com/alyoctavian/ModularClothing/assets/33526573/7f4deeed-0aab-4752-9ce1-a7b960845a4e)
