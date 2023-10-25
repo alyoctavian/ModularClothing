@@ -44,3 +44,18 @@ In this project, we have animations for idle and run, therefore an animator look
 
 ![image](https://github.com/alyoctavian/ModularClothing/assets/33526573/eb2ab3b7-58d7-4bfc-a700-ab082a32a0e6)
 
+### Scripts
+
+#### Customization
+
+[BodyPartAnimator](https://github.com/alyoctavian/ModularClothing/blob/main/Scripts/CustomizationScripts/BodyPartAnimator.cs)
+
+This script is attached to each body part in order to manage the currently animated action and direction.
+
+[CustomizationController](https://github.com/alyoctavian/ModularClothing/blob/main/Scripts/CustomizationScripts/CustomizationController.cs)
+
+Used to change or remove the current item of a specific body part.
+
+[InventoryManager](https://github.com/alyoctavian/ModularClothing/blob/main/Scripts/CustomizationScripts/InventoryManager.cs)
+
+Used to keep track of what clothing items we currently have, as the items can be purchased, equipped and sold.
