@@ -48,14 +48,24 @@ In this project, we have animations for idle and run, therefore an animator look
 
 #### Customization
 
-[BodyPartAnimator](https://github.com/alyoctavian/ModularClothing/blob/main/Scripts/CustomizationScripts/BodyPartAnimator.cs)
+[BodyPartAnimator](https://github.com/alyoctavian/ModularClothing/blob/main/Scripts/CustomizationScripts/BodyPartAnimator.cs) - Attached to separate body parts (ex. Hair)
 
 This script is attached to each body part in order to manage the currently animated action and direction.
 
-[CustomizationController](https://github.com/alyoctavian/ModularClothing/blob/main/Scripts/CustomizationScripts/CustomizationController.cs)
+[CustomizationController](https://github.com/alyoctavian/ModularClothing/blob/main/Scripts/CustomizationScripts/CustomizationController.cs) - Attached to the main character
 
 Used to change or remove the current item of a specific body part.
 
-[InventoryManager](https://github.com/alyoctavian/ModularClothing/blob/main/Scripts/CustomizationScripts/InventoryManager.cs)
+[InventoryManager](https://github.com/alyoctavian/ModularClothing/blob/main/Scripts/CustomizationScripts/InventoryManager.cs) - Attached to the main character
 
 Used to keep track of what clothing items we currently have, as the items can be purchased, equipped and sold.
+
+#### Player Scripts and Utils
+
+The code inside the PlayerScripts is used for movement. When the player is running or when idle, the script propagates the information to the respective body parts.
+The component needs to be attached to the main character, and the references should be assigned accordingly.
+
+![image](https://github.com/alyoctavian/ModularClothing/assets/33526573/00b9ef44-e346-4c7f-90f1-5da099162592)
+
+The singleton class is used to easier access some components without having to reference gameobjects or setup dependencies.
+The shop ShopInteract script is used to show the button whenever the player walks close to the counter.
