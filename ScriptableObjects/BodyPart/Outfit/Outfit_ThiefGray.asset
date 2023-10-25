@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 810d3e75cb0eb9e47932b2d9b737db21, type: 3}
+  m_Name: Outfit_ThiefGray
+  m_EditorClassIdentifier: 
+  m_partType: 1
+  m_name: Thief Costume
+  m_defaultSprite: {fileID: -2055488348, guid: 410d8c3f7c8ab41449fbf0c997bfab3c, type: 3}
+  m_runtimeAnimator: {fileID: 9100000, guid: 96a42c5f333227b4faa995951ef61a60, type: 2}
+  m_idleAnimations:
+  - {fileID: 7400000, guid: d68c1b15e1bbf304a93d49d3e5d90e5e, type: 2}
+  - {fileID: 7400000, guid: 9f8500dce2fd5fa429eafaf9a77fabaa, type: 2}
+  - {fileID: 7400000, guid: 826a633f56595704d90d62192c33bd53, type: 2}
+  - {fileID: 7400000, guid: dbca13428f3083445849ef2b33c894bd, type: 2}
+  m_runAnimations:
+  - {fileID: 7400000, guid: 1c04ac435be612e44bb3acbbc81a4bab, type: 2}
+  - {fileID: 7400000, guid: 5711a438396e52146acc14139cfe4943, type: 2}
+  - {fileID: 7400000, guid: 977be0be2a34bed41824e3e13929d331, type: 2}
+  - {fileID: 7400000, guid: 4630bd599f78e374e8d4270581d0864e, type: 2}
