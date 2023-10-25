@@ -67,5 +67,5 @@ The component needs to be attached to the main character, and the references sho
 
 ![image](https://github.com/alyoctavian/ModularClothing/assets/33526573/00b9ef44-e346-4c7f-90f1-5da099162592)
 
-The singleton class is used to easier access some components without having to reference gameobjects or setup dependencies.
-The shop ShopInteract script is used to show the button whenever the player walks close to the counter.
+The Singleton class is used to easier access some components without having to reference gameobjects or setup dependencies.
+The [ShopInteract](https://github.com/alyoctavian/ModularClothing/blob/main/Scripts/ShopInteract.cs) script is used to show the button whenever the player walks close to the counter.
