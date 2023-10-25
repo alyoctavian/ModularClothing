@@ -6,7 +6,7 @@
 
 This project allows you to create a modular clothing system to customize different body parts of your game characters.
 
-### Setup and prerequisites
+## Setup and prerequisites
 
 Unity version used: 2021.3.2f1
 
@@ -15,6 +15,7 @@ The current project has a 2D top-down perspective, but the same principle applie
 
 The sprites used in the current project were obtained from: https://limezu.itch.io/moderninteriors
 There is also a free demo which can be used as inspiration if you want to make your own assets.
+Due to licensing, I cannot attach the sprites and the objects depending on them.
 
 ### Character Layout
 
@@ -77,3 +78,13 @@ After importing this script, simply right-click inside the project window to cre
 If you keep the structure of this project, the animations need to be referenced in the specified order.
 
 ![image](https://github.com/alyoctavian/ModularClothing/assets/33526573/7f4deeed-0aab-4752-9ce1-a7b960845a4e)
+
+#### UI Scripts
+
+The [ItemDisplay](https://github.com/alyoctavian/ModularClothing/blob/main/Scripts/UI%20Scripts/ItemDisplay.cs) script is used to handle the shop elements the user sees and to allow clicking on the shop buttons.
+
+![image](https://github.com/alyoctavian/ModularClothing/assets/33526573/2fc3af29-830f-4edf-98cc-e29ba07dbbe8)
+
+### Final Words
+
+That's the gist of the project. If you have any questions or enquiries feel free to open an issue on the project and I'll be glad to help.
