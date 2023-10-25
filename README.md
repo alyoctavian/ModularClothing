@@ -27,3 +27,20 @@ The character is composed of the following body parts, each having attached the 
 The character can be set as a Prefab to make things easier to use in the Clothes Store scene.
 
 ![image](https://github.com/alyoctavian/ModularClothing/assets/33526573/caa97262-7cb4-487a-9332-29d9a1f695a0)
+
+### Creating the animations
+
+First of all, when importing the sprite sheets, the following settings were applied to the texture files:
+
+![image](https://github.com/alyoctavian/ModularClothing/assets/33526573/4406c513-f0c2-4da2-96a4-be0fd382909f)
+
+When slicing the sprite sheet, the following settings were used in order to make sure that each body part overlaps seamlessly and they all work nicely together. In this case, I preferred to pivot the sprites to the bottom.
+
+![image](https://github.com/alyoctavian/ModularClothing/assets/33526573/65c659b4-e1f9-4876-89f7-bef870c9589f)
+
+Each animation is characterized by the action (ex. idle) and the direction (ex. right).
+Each item has its own animator controller and set of animations. This means that if you have 5 different hairstyles, there would be 5 separate animators each with the corresponding set of animations for the actions that you want to implement.
+In this project, we have animations for idle and run, therefore an animator looks like this:
+
+![image](https://github.com/alyoctavian/ModularClothing/assets/33526573/eb2ab3b7-58d7-4bfc-a700-ab082a32a0e6)
+
